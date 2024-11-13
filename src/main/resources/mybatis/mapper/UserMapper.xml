@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.travelauth.dao.IUserDao">
+
+    <resultMap id="BaseResultMap" type="com.travelauth.entity.UserEntity">
+        <result column="id" jdbcType="INTEGER" property="id" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="kb_id" jdbcType="VARCHAR" property="kb_id" />
+    </resultMap>
+
+    <select id="findUserById" resultType="com.travelauth.entity.UserEntity">
+        select * from auth_user where id = #{id}
+    </select>
+
+    <select id="findUserByName" resultType="com.travelauth.entity.UserEntity">
+        select * from auth_user where name = #{name}
+    </select>
+
+    <select id="findUserAll" resultMap="BaseResultMap" resultType="com.travelauth.entity.UserEntity">
+        select * from auth_user
+    </select>
+
+    <select id="findKbIdByName" resultMap="BaseResultMap" resultType="com.travelauth.entity.UserEntity">
+        select * from auth_user where name = #{name}
+    </select>
+</mapper>

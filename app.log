@@ -1,0 +1,86 @@
+2024-11-13 15:58:06 - Starting TravelAuthApplication on Aric.local with PID 1830 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
+2024-11-13 15:58:06 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-13 15:58:06 - No active profile set, falling back to default profiles: default
+2024-11-13 15:58:08 - Tomcat initialized with port(s): 8989 (http)
+2024-11-13 15:58:08 - Starting service [Tomcat]
+2024-11-13 15:58:08 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-13 15:58:08 - Initializing Spring embedded WebApplicationContext
+2024-11-13 15:58:08 - Root WebApplicationContext: initialization completed in 1832 ms
+2024-11-13 15:58:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-13 15:58:09 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-13 15:58:09 - Started TravelAuthApplication in 3.253 seconds (JVM running for 4.161)
+2024-11-13 16:01:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-13 16:01:27 - Initializing Servlet 'dispatcherServlet'
+2024-11-13 16:01:27 - Completed initialization in 10 ms
+2024-11-13 16:01:27 - HikariPool-1 - Starting...
+2024-11-13 16:01:28 - HikariPool-1 - Start completed.
+2024-11-13 16:01:28 - ==>  Preparing: select * from auth_user where id = ?
+2024-11-13 16:01:28 - ==> Parameters: 1(Integer)
+2024-11-13 16:01:28 - <==      Total: 1
+2024-11-13 16:01:51 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-13 16:01:51 - ==> Parameters: 张三(String)
+2024-11-13 16:01:51 - <==      Total: 1
+2024-11-13 16:02:20 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-13 16:02:20 - ==> Parameters: 张三(String)
+2024-11-13 16:02:20 - <==      Total: 1
+2024-11-13 16:12:17 - ==>  Preparing: select * from auth_user where id = ?
+2024-11-13 16:12:17 - ==> Parameters: 1(Integer)
+2024-11-13 16:12:17 - <==      Total: 1
+2024-11-13 16:12:54 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:12:54 - HikariPool-1 - Shutdown initiated...
+2024-11-13 16:12:54 - HikariPool-1 - Shutdown completed.
+2024-11-13 16:19:26 - Starting TravelAuthApplication on Aric.local with PID 2487 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
+2024-11-13 16:19:26 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-13 16:19:26 - No active profile set, falling back to default profiles: default
+2024-11-13 16:19:27 - Tomcat initialized with port(s): 8989 (http)
+2024-11-13 16:19:27 - Starting service [Tomcat]
+2024-11-13 16:19:27 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-13 16:19:27 - Initializing Spring embedded WebApplicationContext
+2024-11-13 16:19:27 - Root WebApplicationContext: initialization completed in 1323 ms
+2024-11-13 16:19:28 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:19:28 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-13 16:19:28 - Started TravelAuthApplication in 3.066 seconds (JVM running for 4.435)
+2024-11-13 16:19:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-13 16:19:48 - Initializing Servlet 'dispatcherServlet'
+2024-11-13 16:19:48 - Completed initialization in 12 ms
+2024-11-13 16:19:48 - HikariPool-1 - Starting...
+2024-11-13 16:19:48 - HikariPool-1 - Start completed.
+2024-11-13 16:19:48 - ==>  Preparing: select * from auth_user where id = ?
+2024-11-13 16:19:48 - ==> Parameters: 张三(String)
+2024-11-13 16:20:03 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:20:03 - HikariPool-1 - Shutdown initiated...
+2024-11-13 16:20:03 - HikariPool-1 - Shutdown completed.
+2024-11-13 16:20:08 - Starting TravelAuthApplication on Aric.local with PID 2504 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
+2024-11-13 16:20:08 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-13 16:20:08 - No active profile set, falling back to default profiles: default
+2024-11-13 16:20:09 - Tomcat initialized with port(s): 8989 (http)
+2024-11-13 16:20:09 - Starting service [Tomcat]
+2024-11-13 16:20:09 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-13 16:20:09 - Initializing Spring embedded WebApplicationContext
+2024-11-13 16:20:09 - Root WebApplicationContext: initialization completed in 1016 ms
+2024-11-13 16:20:09 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:20:09 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-13 16:20:09 - Started TravelAuthApplication in 2.415 seconds (JVM running for 3.388)
+2024-11-13 16:20:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-13 16:20:14 - Initializing Servlet 'dispatcherServlet'
+2024-11-13 16:20:14 - Completed initialization in 9 ms
+2024-11-13 16:20:14 - HikariPool-1 - Starting...
+2024-11-13 16:20:14 - HikariPool-1 - Start completed.
+2024-11-13 16:20:14 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-13 16:20:14 - ==> Parameters: 张三(String)
+2024-11-13 16:20:14 - <==      Total: 1
+2024-11-13 16:22:07 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:22:07 - HikariPool-1 - Shutdown initiated...
+2024-11-13 16:22:07 - HikariPool-1 - Shutdown completed.
+2024-11-13 16:22:14 - Starting TravelAuthApplication on Aric.local with PID 2543 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
+2024-11-13 16:22:14 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-13 16:22:14 - No active profile set, falling back to default profiles: default
+2024-11-13 16:22:15 - Tomcat initialized with port(s): 8989 (http)
+2024-11-13 16:22:15 - Starting service [Tomcat]
+2024-11-13 16:22:15 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-13 16:22:15 - Initializing Spring embedded WebApplicationContext
+2024-11-13 16:22:15 - Root WebApplicationContext: initialization completed in 1017 ms
+2024-11-13 16:22:15 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-13 16:22:16 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-13 16:22:16 - Started TravelAuthApplication in 2.328 seconds (JVM running for 3.29)
+2024-11-13 16:22:55 - Shutting down ExecutorService 'applicationTaskExecutor'
