@@ -3,6 +3,7 @@ package com.travelauth.controller;
 import com.travelauth.common.Result;
 import com.travelauth.common.ResultUtil;
 import com.travelauth.entity.UserEntity;
+import com.travelauth.entity.dto.ActionDTO;
 import com.travelauth.entity.dto.UserTokenDTO;
 import com.travelauth.interceptor.BasicAuthInterceptor;
 import com.travelauth.service.IUserService;
@@ -52,9 +53,9 @@ public class UserController {
     }
 
     @PostMapping("getPermission")
-    public Result<Object> getPermission(@RequestHeader("Authorization") String token, String action) {
+    public Result<Object> getPermission(@RequestHeader("Authorization") String token, @RequestBody ActionDTO actionDTO) {
         try {
-            String kb_id = iUserService.getPermission(token, action);
+            String kb_id = iUserService.getPermission(token, actionDTO.getAction());
             return ResultUtil.success(ResultEnum.SUCCESS, kb_id);
         } catch (Exception e) {
             logger.info(e.getMessage());

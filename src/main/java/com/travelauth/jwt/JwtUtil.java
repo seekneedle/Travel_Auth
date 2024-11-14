@@ -8,6 +8,8 @@ import com.auth0.jwt.interfaces.DecodedJWT;
 
 import java.util.Date;
 
+import static com.travelauth.interceptor.BasicAuthInterceptor.BEAR_PREFIX;
+
 
 /**
  * @ClassName: JwtUtil
@@ -73,8 +75,9 @@ public class JwtUtil {
      * @return
      */
     public static String getClaim(String token, String claim) {
+        String bearToken = token.substring(BEAR_PREFIX.length()).trim();
         try {
-            DecodedJWT jwt = JWT.decode(token);
+            DecodedJWT jwt = JWT.decode(bearToken);
             return jwt.getClaim(claim).asString();
         } catch (JWTDecodeException e) {
             return null;

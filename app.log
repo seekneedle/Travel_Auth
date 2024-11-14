@@ -1,86 +1,697 @@
-2024-11-13 15:58:06 - Starting TravelAuthApplication on Aric.local with PID 1830 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
-2024-11-13 15:58:06 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
-2024-11-13 15:58:06 - No active profile set, falling back to default profiles: default
-2024-11-13 15:58:08 - Tomcat initialized with port(s): 8989 (http)
-2024-11-13 15:58:08 - Starting service [Tomcat]
-2024-11-13 15:58:08 - Starting Servlet engine: [Apache Tomcat/9.0.34]
-2024-11-13 15:58:08 - Initializing Spring embedded WebApplicationContext
-2024-11-13 15:58:08 - Root WebApplicationContext: initialization completed in 1832 ms
-2024-11-13 15:58:09 - Initializing ExecutorService 'applicationTaskExecutor'
-2024-11-13 15:58:09 - Tomcat started on port(s): 8989 (http) with context path ''
-2024-11-13 15:58:09 - Started TravelAuthApplication in 3.253 seconds (JVM running for 4.161)
-2024-11-13 16:01:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-13 16:01:27 - Initializing Servlet 'dispatcherServlet'
-2024-11-13 16:01:27 - Completed initialization in 10 ms
-2024-11-13 16:01:27 - HikariPool-1 - Starting...
-2024-11-13 16:01:28 - HikariPool-1 - Start completed.
-2024-11-13 16:01:28 - ==>  Preparing: select * from auth_user where id = ?
-2024-11-13 16:01:28 - ==> Parameters: 1(Integer)
-2024-11-13 16:01:28 - <==      Total: 1
-2024-11-13 16:01:51 - ==>  Preparing: select * from auth_user where name = ?
-2024-11-13 16:01:51 - ==> Parameters: 张三(String)
-2024-11-13 16:01:51 - <==      Total: 1
-2024-11-13 16:02:20 - ==>  Preparing: select * from auth_user where name = ?
-2024-11-13 16:02:20 - ==> Parameters: 张三(String)
-2024-11-13 16:02:20 - <==      Total: 1
-2024-11-13 16:12:17 - ==>  Preparing: select * from auth_user where id = ?
-2024-11-13 16:12:17 - ==> Parameters: 1(Integer)
-2024-11-13 16:12:17 - <==      Total: 1
-2024-11-13 16:12:54 - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:12:54 - HikariPool-1 - Shutdown initiated...
-2024-11-13 16:12:54 - HikariPool-1 - Shutdown completed.
-2024-11-13 16:19:26 - Starting TravelAuthApplication on Aric.local with PID 2487 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
-2024-11-13 16:19:26 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
-2024-11-13 16:19:26 - No active profile set, falling back to default profiles: default
-2024-11-13 16:19:27 - Tomcat initialized with port(s): 8989 (http)
-2024-11-13 16:19:27 - Starting service [Tomcat]
-2024-11-13 16:19:27 - Starting Servlet engine: [Apache Tomcat/9.0.34]
-2024-11-13 16:19:27 - Initializing Spring embedded WebApplicationContext
-2024-11-13 16:19:27 - Root WebApplicationContext: initialization completed in 1323 ms
-2024-11-13 16:19:28 - Initializing ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:19:28 - Tomcat started on port(s): 8989 (http) with context path ''
-2024-11-13 16:19:28 - Started TravelAuthApplication in 3.066 seconds (JVM running for 4.435)
-2024-11-13 16:19:48 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-13 16:19:48 - Initializing Servlet 'dispatcherServlet'
-2024-11-13 16:19:48 - Completed initialization in 12 ms
-2024-11-13 16:19:48 - HikariPool-1 - Starting...
-2024-11-13 16:19:48 - HikariPool-1 - Start completed.
-2024-11-13 16:19:48 - ==>  Preparing: select * from auth_user where id = ?
-2024-11-13 16:19:48 - ==> Parameters: 张三(String)
-2024-11-13 16:20:03 - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:20:03 - HikariPool-1 - Shutdown initiated...
-2024-11-13 16:20:03 - HikariPool-1 - Shutdown completed.
-2024-11-13 16:20:08 - Starting TravelAuthApplication on Aric.local with PID 2504 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
-2024-11-13 16:20:08 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
-2024-11-13 16:20:08 - No active profile set, falling back to default profiles: default
-2024-11-13 16:20:09 - Tomcat initialized with port(s): 8989 (http)
-2024-11-13 16:20:09 - Starting service [Tomcat]
-2024-11-13 16:20:09 - Starting Servlet engine: [Apache Tomcat/9.0.34]
-2024-11-13 16:20:09 - Initializing Spring embedded WebApplicationContext
-2024-11-13 16:20:09 - Root WebApplicationContext: initialization completed in 1016 ms
-2024-11-13 16:20:09 - Initializing ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:20:09 - Tomcat started on port(s): 8989 (http) with context path ''
-2024-11-13 16:20:09 - Started TravelAuthApplication in 2.415 seconds (JVM running for 3.388)
-2024-11-13 16:20:14 - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-11-13 16:20:14 - Initializing Servlet 'dispatcherServlet'
-2024-11-13 16:20:14 - Completed initialization in 9 ms
-2024-11-13 16:20:14 - HikariPool-1 - Starting...
-2024-11-13 16:20:14 - HikariPool-1 - Start completed.
-2024-11-13 16:20:14 - ==>  Preparing: select * from auth_user where name = ?
-2024-11-13 16:20:14 - ==> Parameters: 张三(String)
-2024-11-13 16:20:14 - <==      Total: 1
-2024-11-13 16:22:07 - Shutting down ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:22:07 - HikariPool-1 - Shutdown initiated...
-2024-11-13 16:22:07 - HikariPool-1 - Shutdown completed.
-2024-11-13 16:22:14 - Starting TravelAuthApplication on Aric.local with PID 2543 (/Users/Aric/Documents/TravelAuth/target/classes started by Aric in /Users/Aric/Documents/TravelAuth)
-2024-11-13 16:22:14 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
-2024-11-13 16:22:14 - No active profile set, falling back to default profiles: default
-2024-11-13 16:22:15 - Tomcat initialized with port(s): 8989 (http)
-2024-11-13 16:22:15 - Starting service [Tomcat]
-2024-11-13 16:22:15 - Starting Servlet engine: [Apache Tomcat/9.0.34]
-2024-11-13 16:22:15 - Initializing Spring embedded WebApplicationContext
-2024-11-13 16:22:15 - Root WebApplicationContext: initialization completed in 1017 ms
-2024-11-13 16:22:15 - Initializing ExecutorService 'applicationTaskExecutor'
-2024-11-13 16:22:16 - Tomcat started on port(s): 8989 (http) with context path ''
-2024-11-13 16:22:16 - Started TravelAuthApplication in 2.328 seconds (JVM running for 3.29)
-2024-11-13 16:22:55 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:32:50 - Starting TravelAuthApplication on CN-MD20021.local with PID 3170 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 17:32:50 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 17:32:50 - No active profile set, falling back to default profiles: default
+2024-11-14 17:32:51 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 17:32:51 - Starting service [Tomcat]
+2024-11-14 17:32:51 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 17:32:51 - Initializing Spring embedded WebApplicationContext
+2024-11-14 17:32:51 - Root WebApplicationContext: initialization completed in 1215 ms
+2024-11-14 17:32:52 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:32:52 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 17:32:52 - Started TravelAuthApplication in 2.682 seconds (JVM running for 3.333)
+2024-11-14 17:34:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 17:34:25 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 17:34:25 - Completed initialization in 9 ms
+2024-11-14 17:34:25 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:15)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:31)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:34:25 - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.NullPointerException: null
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:15)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:31)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:34:25 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:15)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:31)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2024-11-14 17:35:55 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-11-14 17:35:55 - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.NullPointerException: null
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:15)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:31)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:35:55 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.NullPointerException
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:175)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.NullPointerException: null
+	at com.auth0.jwt.TokenUtils.splitToken(TokenUtils.java:15)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:31)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 25 common frames omitted
+2024-11-14 17:37:04 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-11-14 17:37:17 - HikariPool-1 - Starting...
+2024-11-14 17:37:17 - HikariPool-1 - Start completed.
+2024-11-14 17:37:17 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 17:37:17 - ==> Parameters: 张三(String)
+2024-11-14 17:37:18 - <==      Total: 1
+2024-11-14 17:37:39 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 17:37:39 - ==> Parameters: 张三(String)
+2024-11-14 17:37:39 - <==      Total: 1
+2024-11-14 17:51:52 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 17:51:52 - ==> Parameters: admin(String)
+2024-11-14 17:51:52 - <==      Total: 1
+2024-11-14 17:52:00 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value] with root cause
+java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:52:00 - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:52:00 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2024-11-14 17:53:05 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value] with root cause
+java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:53:05 - Servlet.service() for servlet [dispatcherServlet] threw exception
+java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2024-11-14 17:53:05 - Exception Processing ErrorPage[errorCode=0, location=/error]
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:712)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:461)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:384)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:312)
+	at org.apache.catalina.core.StandardHostValve.custom(StandardHostValve.java:394)
+	at org.apache.catalina.core.StandardHostValve.status(StandardHostValve.java:253)
+	at org.apache.catalina.core.StandardHostValve.throwable(StandardHostValve.java:348)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:173)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalArgumentException: Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+	at org.apache.commons.codec.binary.Base64.validateCharacter(Base64.java:798)
+	at org.apache.commons.codec.binary.Base64.decode(Base64.java:472)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:412)
+	at org.apache.commons.codec.binary.BaseNCodec.decode(BaseNCodec.java:395)
+	at org.apache.commons.codec.binary.Base64.decodeBase64(Base64.java:694)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:35)
+	at com.auth0.jwt.JWTDecoder.<init>(JWTDecoder.java:27)
+	at com.auth0.jwt.JWT.decode(JWT.java:45)
+	at com.travelauth.jwt.JwtUtil.getClaim(JwtUtil.java:77)
+	at com.travelauth.interceptor.BasicAuthInterceptor.preHandle(BasicAuthInterceptor.java:57)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	... 26 common frames omitted
+2024-11-14 17:57:57 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:57:57 - HikariPool-1 - Shutdown initiated...
+2024-11-14 17:57:57 - HikariPool-1 - Shutdown completed.
+2024-11-14 17:58:12 - Starting TravelAuthApplication on CN-MD20021.local with PID 4019 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 17:58:12 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 17:58:12 - No active profile set, falling back to default profiles: default
+2024-11-14 17:58:13 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 17:58:13 - Starting service [Tomcat]
+2024-11-14 17:58:13 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 17:58:13 - Initializing Spring embedded WebApplicationContext
+2024-11-14 17:58:13 - Root WebApplicationContext: initialization completed in 1173 ms
+2024-11-14 17:58:14 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:58:14 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 17:58:14 - Started TravelAuthApplication in 2.772 seconds (JVM running for 3.276)
+2024-11-14 17:58:21 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 17:58:21 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 17:58:21 - Completed initialization in 7 ms
+2024-11-14 17:58:21 - HikariPool-1 - Starting...
+2024-11-14 17:58:22 - HikariPool-1 - Start completed.
+2024-11-14 17:58:22 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 17:58:22 - ==> Parameters: admin(String)
+2024-11-14 17:58:22 - <==      Total: 1
+2024-11-14 17:58:38 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:58:38 - HikariPool-1 - Shutdown initiated...
+2024-11-14 17:58:38 - HikariPool-1 - Shutdown completed.
+2024-11-14 17:59:26 - Starting TravelAuthApplication on CN-MD20021.local with PID 4060 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 17:59:26 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 17:59:26 - No active profile set, falling back to default profiles: default
+2024-11-14 17:59:28 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 17:59:28 - Starting service [Tomcat]
+2024-11-14 17:59:28 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 17:59:28 - Initializing Spring embedded WebApplicationContext
+2024-11-14 17:59:28 - Root WebApplicationContext: initialization completed in 1468 ms
+2024-11-14 17:59:28 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 17:59:28 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 17:59:28 - Started TravelAuthApplication in 2.938 seconds (JVM running for 4.067)
+2024-11-14 17:59:37 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 17:59:37 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 17:59:37 - Completed initialization in 16 ms
+2024-11-14 18:00:10 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:00:15 - Starting TravelAuthApplication on CN-MD20021.local with PID 4083 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 18:00:15 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 18:00:15 - No active profile set, falling back to default profiles: default
+2024-11-14 18:00:16 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 18:00:16 - Starting service [Tomcat]
+2024-11-14 18:00:16 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 18:00:16 - Initializing Spring embedded WebApplicationContext
+2024-11-14 18:00:16 - Root WebApplicationContext: initialization completed in 1270 ms
+2024-11-14 18:00:16 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:00:16 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 18:00:16 - Started TravelAuthApplication in 2.736 seconds (JVM running for 3.331)
+2024-11-14 18:00:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 18:00:18 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 18:00:18 - Completed initialization in 13 ms
+2024-11-14 18:00:18 - HikariPool-1 - Starting...
+2024-11-14 18:00:19 - HikariPool-1 - Start completed.
+2024-11-14 18:00:19 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 18:00:19 - ==> Parameters: admin(String)
+2024-11-14 18:00:19 - <==      Total: 1
+2024-11-14 18:00:27 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 18:02:07 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:02:07 - HikariPool-1 - Shutdown initiated...
+2024-11-14 18:02:07 - HikariPool-1 - Shutdown completed.
+2024-11-14 18:02:11 - Starting TravelAuthApplication on CN-MD20021.local with PID 4142 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 18:02:11 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 18:02:11 - No active profile set, falling back to default profiles: default
+2024-11-14 18:02:12 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 18:02:12 - Starting service [Tomcat]
+2024-11-14 18:02:12 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 18:02:12 - Initializing Spring embedded WebApplicationContext
+2024-11-14 18:02:12 - Root WebApplicationContext: initialization completed in 1272 ms
+2024-11-14 18:02:12 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:02:13 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 18:02:13 - Started TravelAuthApplication in 2.621 seconds (JVM running for 3.244)
+2024-11-14 18:02:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 18:02:20 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 18:02:20 - Completed initialization in 7 ms
+2024-11-14 18:02:24 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 18:03:17 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:03:20 - Starting TravelAuthApplication on CN-MD20021.local with PID 4161 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 18:03:20 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 18:03:20 - No active profile set, falling back to default profiles: default
+2024-11-14 18:03:22 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 18:03:22 - Starting service [Tomcat]
+2024-11-14 18:03:22 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 18:03:22 - Initializing Spring embedded WebApplicationContext
+2024-11-14 18:03:22 - Root WebApplicationContext: initialization completed in 1484 ms
+2024-11-14 18:03:22 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 18:03:23 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 18:03:23 - Started TravelAuthApplication in 3.233 seconds (JVM running for 3.899)
+2024-11-14 19:02:25 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:02:29 - Starting TravelAuthApplication on CN-MD20021.local with PID 4998 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 19:02:29 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 19:02:29 - No active profile set, falling back to default profiles: default
+2024-11-14 19:02:30 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 19:02:30 - Starting service [Tomcat]
+2024-11-14 19:02:30 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 19:02:30 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:02:30 - Root WebApplicationContext: initialization completed in 1142 ms
+2024-11-14 19:02:30 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:02:30 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 19:02:30 - Started TravelAuthApplication in 2.367 seconds (JVM running for 3.038)
+2024-11-14 19:02:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:02:39 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:02:39 - Completed initialization in 7 ms
+2024-11-14 19:02:46 - HikariPool-1 - Starting...
+2024-11-14 19:02:46 - HikariPool-1 - Start completed.
+2024-11-14 19:02:46 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 19:02:46 - ==> Parameters: admin(String)
+2024-11-14 19:02:46 - <==      Total: 1
+2024-11-14 19:04:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s886ms).
+2024-11-14 19:04:01 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:05:27 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s703ms).
+2024-11-14 19:05:27 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:05:27 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:05:27 - HikariPool-1 - Shutdown initiated...
+2024-11-14 19:05:27 - HikariPool-1 - Shutdown completed.
+2024-11-14 19:06:04 - Starting TravelAuthApplication on CN-MD20021.local with PID 5090 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 19:06:04 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 19:06:04 - No active profile set, falling back to default profiles: default
+2024-11-14 19:06:05 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 19:06:05 - Starting service [Tomcat]
+2024-11-14 19:06:05 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 19:06:05 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:06:05 - Root WebApplicationContext: initialization completed in 1142 ms
+2024-11-14 19:06:05 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:06:05 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 19:06:05 - Started TravelAuthApplication in 2.42 seconds (JVM running for 2.95)
+2024-11-14 19:06:09 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:06:09 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:06:09 - Completed initialization in 6 ms
+2024-11-14 19:06:09 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:06:13 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:06:16 - Starting TravelAuthApplication on CN-MD20021.local with PID 5096 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 19:06:16 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 19:06:16 - No active profile set, falling back to default profiles: default
+2024-11-14 19:06:17 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 19:06:17 - Starting service [Tomcat]
+2024-11-14 19:06:17 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 19:06:17 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:06:17 - Root WebApplicationContext: initialization completed in 1386 ms
+2024-11-14 19:06:18 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:06:18 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 19:06:18 - Started TravelAuthApplication in 2.878 seconds (JVM running for 3.518)
+2024-11-14 19:06:24 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:06:24 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:06:24 - Completed initialization in 7 ms
+2024-11-14 19:06:59 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:07:19 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:13:30 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:13:35 - Starting TravelAuthApplication on CN-MD20021.local with PID 5210 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 19:13:35 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 19:13:35 - No active profile set, falling back to default profiles: default
+2024-11-14 19:13:37 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 19:13:37 - Starting service [Tomcat]
+2024-11-14 19:13:37 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 19:13:37 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:13:37 - Root WebApplicationContext: initialization completed in 1348 ms
+2024-11-14 19:13:37 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:13:37 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 19:13:37 - Started TravelAuthApplication in 2.764 seconds (JVM running for 3.419)
+2024-11-14 19:13:39 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:13:39 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:13:39 - Completed initialization in 6 ms
+2024-11-14 19:13:44 - Last encoded character (before the paddings if any) is a valid base 64 alphabet but not a possible value
+2024-11-14 19:15:32 - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:15:36 - Starting TravelAuthApplication on CN-MD20021.local with PID 5280 (/Users/huaxing.wang/github/Travel_Auth/target/classes started by huaxing.wang in /Users/huaxing.wang/github/Travel_Auth)
+2024-11-14 19:15:36 - Running with Spring Boot v2.2.7.RELEASE, Spring v5.2.6.RELEASE
+2024-11-14 19:15:36 - No active profile set, falling back to default profiles: default
+2024-11-14 19:15:37 - Tomcat initialized with port(s): 8989 (http)
+2024-11-14 19:15:37 - Starting service [Tomcat]
+2024-11-14 19:15:37 - Starting Servlet engine: [Apache Tomcat/9.0.34]
+2024-11-14 19:15:37 - Initializing Spring embedded WebApplicationContext
+2024-11-14 19:15:37 - Root WebApplicationContext: initialization completed in 1265 ms
+2024-11-14 19:15:38 - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-14 19:15:38 - Tomcat started on port(s): 8989 (http) with context path ''
+2024-11-14 19:15:38 - Started TravelAuthApplication in 2.545 seconds (JVM running for 3.022)
+2024-11-14 19:15:41 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-14 19:15:41 - Initializing Servlet 'dispatcherServlet'
+2024-11-14 19:15:41 - Completed initialization in 7 ms
+2024-11-14 19:15:41 - HikariPool-1 - Starting...
+2024-11-14 19:15:42 - HikariPool-1 - Start completed.
+2024-11-14 19:15:42 - ==>  Preparing: select * from auth_user where name = ?
+2024-11-14 19:15:42 - ==> Parameters: admin(String)
+2024-11-14 19:15:42 - <==      Total: 1

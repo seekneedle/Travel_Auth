@@ -21,6 +21,7 @@ public class BasicAuthInterceptor implements HandlerInterceptor {
     private static final String BASIC_PREFIX = "Basic ";
     private static final String BASIC_USER = "123456";
     private static final String BASIC_PASSWORD = "123456";
+    public static final String BEAR_PREFIX = "Bearer ";
     private static final Set<String> EXCLUDE_PATHS = new HashSet<>();
 
     static {
@@ -53,7 +54,7 @@ public class BasicAuthInterceptor implements HandlerInterceptor {
             if (isValidUser(username, password)) {
                 return true; // 验证通过，继续处理请求
             }
-        } else {
+        } else if (authHeader != null && authHeader.startsWith(BEAR_PREFIX)) {
             String username = JwtUtil.getClaim(authHeader, JwtUtil.ACCOUNT);
             if (!username.isEmpty()) {
                 return true;
