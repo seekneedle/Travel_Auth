@@ -75,9 +75,9 @@ public class JwtUtil {
      * @return
      */
     public static String getClaim(String token, String claim) {
-        String bearToken = token.substring(BEAR_PREFIX.length()).trim();
+//        String bearToken = token.substring(BEAR_PREFIX.length()).trim();
         try {
-            DecodedJWT jwt = JWT.decode(bearToken);
+            DecodedJWT jwt = JWT.decode(token);
             return jwt.getClaim(claim).asString();
         } catch (JWTDecodeException e) {
             return null;

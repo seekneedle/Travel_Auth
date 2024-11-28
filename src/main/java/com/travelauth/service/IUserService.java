@@ -17,7 +17,7 @@ public interface IUserService {
 
     List<UserEntity> findUserAll();
 
-    String findKbIdByName(String name);
+    List<UserEntity> findKbIdByName(String name);
 
-    String getPermission(String token, String action);
+    List<String> getPermission(String token);
 }

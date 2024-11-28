@@ -8,6 +8,7 @@ import com.travelauth.service.IUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -52,15 +53,22 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public String findKbIdByName(String name) {
-        UserEntity entity = iUserDao.findKbIdByName(name);
-        return entity.getName();
+    public List<UserEntity> findKbIdByName(String name) {
+        List<UserEntity> entities = iUserDao.findKbIdByName(name);
+        return entities;
     }
 
     @Override
-    public String getPermission(String token, String action) {
+    public List<String> getPermission(String token) {
         String username = JwtUtil.getClaim(token, JwtUtil.ACCOUNT);
-        UserEntity entity = iUserDao.findKbIdByName(username);
-        return entity.getKb_id();
+        List<UserEntity> entities = iUserDao.findKbIdByName(username);
+        // 创建一个 kb_id 列表
+        List<String> kbIds = new ArrayList<>();
+
+// 遍历 UserEntity 列表，提取 kb_id
+        for (UserEntity entity : entities) {
+            kbIds.add(entity.getKb_id()); // 假设有 getKbId() 方法
+        }
+        return kbIds;
     }
 }

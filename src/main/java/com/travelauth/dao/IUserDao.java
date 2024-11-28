@@ -17,5 +17,5 @@ public interface IUserDao {
     UserEntity findUserByName(String name);
 
     List<UserEntity> findUserAll();
-    UserEntity findKbIdByName(String name);
+    List<UserEntity> findKbIdByName(String name);
 }

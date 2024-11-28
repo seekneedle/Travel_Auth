@@ -28,6 +28,8 @@ public class BasicAuthInterceptor implements HandlerInterceptor {
         // 添加不需要认证的接口路径
         EXCLUDE_PATHS.add("/public");
         EXCLUDE_PATHS.add("/api/open"); // 例如：开放的 API 接口
+        EXCLUDE_PATHS.add("/user/getPermission");
+        EXCLUDE_PATHS.add("/error");
     }
 
     @Override
@@ -53,11 +55,6 @@ public class BasicAuthInterceptor implements HandlerInterceptor {
             // 在这里验证用户名和密码
             if (isValidUser(username, password)) {
                 return true; // 验证通过，继续处理请求
-            }
-        } else if (authHeader != null && authHeader.startsWith(BEAR_PREFIX)) {
-            String username = JwtUtil.getClaim(authHeader, JwtUtil.ACCOUNT);
-            if (!username.isEmpty()) {
-                return true;
             }
         }
         // 验证失败，返回 401 Unauthorized

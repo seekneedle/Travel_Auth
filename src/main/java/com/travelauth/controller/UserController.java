@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import org.slf4j.Logger;
 
+import java.util.List;
+
 /**
  * @Author: dapeng
  * @Date: 2024/11/11/14:38
@@ -53,10 +55,10 @@ public class UserController {
     }
 
     @PostMapping("getPermission")
-    public Result<Object> getPermission(@RequestHeader("Authorization") String token, @RequestBody ActionDTO actionDTO) {
+    public Result<Object> getPermission(@RequestHeader("Authorization") String token) {
         try {
-            String kb_id = iUserService.getPermission(token, actionDTO.getAction());
-            return ResultUtil.success(ResultEnum.SUCCESS, kb_id);
+            List<String> kb_ids = iUserService.getPermission(token);
+            return ResultUtil.success(ResultEnum.SUCCESS, kb_ids);
         } catch (Exception e) {
             logger.info(e.getMessage());
             return ResultUtil.error(e.getMessage());
