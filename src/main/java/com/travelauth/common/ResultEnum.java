@@ -9,6 +9,9 @@ import lombok.Getter;
 @Getter
 public enum ResultEnum {
     UNKONW_ERROR(1001, "未知错误"),
+
+    UNKONW_USER(1002, "未知错误"),
+
     SUCCESS(200, "成功")
     ;
 

@@ -10,4 +10,5 @@ import lombok.Data;
 @Data
 public class ActionDTO {
     private String action;
+    private String kb_id;
 }

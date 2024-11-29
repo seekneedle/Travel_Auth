@@ -16,4 +16,5 @@ public class UserEntity {
     private int id;
     private String name;
     private String kb_id;
+    private String action;
 }

@@ -6,6 +6,7 @@
         <result column="id" jdbcType="INTEGER" property="id" />
         <result column="name" jdbcType="VARCHAR" property="name" />
         <result column="kb_id" jdbcType="VARCHAR" property="kb_id" />
+        <result column="action" jdbcType="VARCHAR" property="action" />
     </resultMap>
 
     <select id="findUserById" resultType="com.travelauth.entity.UserEntity">
@@ -22,5 +23,9 @@
 
     <select id="findKbIdByName" resultMap="BaseResultMap" resultType="com.travelauth.entity.UserEntity">
         select * from auth_user where name = #{name}
+    </select>
+
+    <select id="checkPermission" resultMap="BaseResultMap" resultType="com.travelauth.entity.UserEntity">
+        select * from auth_user where name = #{name} and kb_id = #{kb_id} and action = #{action}
     </select>
 </mapper>

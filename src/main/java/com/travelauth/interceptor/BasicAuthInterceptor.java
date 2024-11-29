@@ -28,7 +28,8 @@ public class BasicAuthInterceptor implements HandlerInterceptor {
         // 添加不需要认证的接口路径
         EXCLUDE_PATHS.add("/public");
         EXCLUDE_PATHS.add("/api/open"); // 例如：开放的 API 接口
-        EXCLUDE_PATHS.add("/user/getPermission");
+        EXCLUDE_PATHS.add("/user/checkPermission");
+        EXCLUDE_PATHS.add("/user/getPermissions");
         EXCLUDE_PATHS.add("/error");
     }
 

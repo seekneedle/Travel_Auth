@@ -4,6 +4,7 @@ import com.travelauth.entity.UserEntity;
 import com.travelauth.entity.dto.UserTokenDTO;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @Author: dapeng
@@ -13,11 +14,13 @@ import java.util.List;
 public interface IUserService {
     UserTokenDTO findUserById(Integer id);
 
-    UserTokenDTO findUserByName(String name);
+    Optional<UserTokenDTO> findUserByName(String name);
 
     List<UserEntity> findUserAll();
 
     List<UserEntity> findKbIdByName(String name);
 
     List<String> getPermission(String token);
+
+    boolean checkPermission(String token, String kb_id, String action);
 }

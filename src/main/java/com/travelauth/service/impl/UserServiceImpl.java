@@ -8,8 +8,8 @@ import com.travelauth.service.IUserService;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.List;
+import javax.validation.constraints.Null;
+import java.util.*;
 
 /**
  * @Author: dapeng
@@ -35,16 +35,17 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public UserTokenDTO findUserByName(String name) {
-        UserEntity entity = iUserDao.findUserByName(name);
-
-        UserTokenDTO userTokenDTO = new UserTokenDTO();
-        userTokenDTO.setId(String.valueOf(entity.getId()));
-        userTokenDTO.setName(entity.getName());
-
-        userTokenDTO.setToken(JwtUtil.sign(entity.getName(), String.valueOf(System.currentTimeMillis())));
-
-        return userTokenDTO;
+    public Optional<UserTokenDTO> findUserByName(String name) {
+        List<UserEntity> entities = iUserDao.findUserByName(name);
+        if (!entities.isEmpty()) {
+            UserEntity entity = entities.get(0);
+            UserTokenDTO userTokenDTO = new UserTokenDTO();
+            userTokenDTO.setId(String.valueOf(entity.getId()));
+            userTokenDTO.setName(entity.getName());
+            userTokenDTO.setToken(JwtUtil.sign(entity.getName(), String.valueOf(System.currentTimeMillis())));
+            return Optional.of(userTokenDTO);
+        }
+        return Optional.empty();
     }
 
     @Override
@@ -63,12 +64,18 @@ public class UserServiceImpl implements IUserService {
         String username = JwtUtil.getClaim(token, JwtUtil.ACCOUNT);
         List<UserEntity> entities = iUserDao.findKbIdByName(username);
         // 创建一个 kb_id 列表
-        List<String> kbIds = new ArrayList<>();
+        Set<String> kbIdSet = new HashSet<>();
 
-// 遍历 UserEntity 列表，提取 kb_id
         for (UserEntity entity : entities) {
-            kbIds.add(entity.getKb_id()); // 假设有 getKbId() 方法
+            kbIdSet.add(entity.getKb_id()); // 假设有 getKbId() 方法
         }
-        return kbIds;
+        return new ArrayList<>(kbIdSet);
+    }
+
+    @Override
+    public boolean checkPermission(String token, String kb_id, String action) {
+        String username = JwtUtil.getClaim(token, JwtUtil.ACCOUNT);
+        List<UserEntity> entities = iUserDao.checkPermission(username, kb_id, action);
+        return entities.size() > 0;
     }
 }

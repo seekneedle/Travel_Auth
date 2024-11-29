@@ -15,6 +15,7 @@ import javax.annotation.Resource;
 import org.slf4j.Logger;
 
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @Author: dapeng
@@ -42,11 +43,11 @@ public class UserController {
     @PostMapping("login")
     public Result<Object> login(@RequestBody UserTokenDTO userTokenDTO) {
         try {
-            UserTokenDTO user = iUserService.findUserByName(userTokenDTO.getName());
-            if (user != null) {
+            Optional<UserTokenDTO> user = iUserService.findUserByName(userTokenDTO.getName());
+            if (user.isPresent()) {
                 return ResultUtil.success(ResultEnum.SUCCESS, user);
             } else {
-                return ResultUtil.error(ResultEnum.UNKONW_ERROR);
+                return ResultUtil.error(ResultEnum.UNKONW_USER);
             }
         } catch (Exception e) {
             logger.info(e.getMessage());
@@ -54,11 +55,22 @@ public class UserController {
         }
     }
 
-    @PostMapping("getPermission")
+    @PostMapping("getPermissions")
     public Result<Object> getPermission(@RequestHeader("Authorization") String token) {
         try {
             List<String> kb_ids = iUserService.getPermission(token);
             return ResultUtil.success(ResultEnum.SUCCESS, kb_ids);
+        } catch (Exception e) {
+            logger.info(e.getMessage());
+            return ResultUtil.error(e.getMessage());
+        }
+    }
+
+    @PostMapping("checkPermission")
+    public Result<Object> getPermission(@RequestHeader("Authorization") String token, @RequestBody ActionDTO actionDTO) {
+        try {
+            boolean permission = iUserService.checkPermission(token, actionDTO.getKb_id(), actionDTO.getAction());
+            return ResultUtil.success(ResultEnum.SUCCESS, permission);
         } catch (Exception e) {
             logger.info(e.getMessage());
             return ResultUtil.error(e.getMessage());

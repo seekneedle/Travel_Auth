@@ -14,8 +14,10 @@ import java.util.List;
 public interface IUserDao {
     UserEntity findUserById(Integer id);
 
-    UserEntity findUserByName(String name);
+    List<UserEntity> findUserByName(String name);
 
     List<UserEntity> findUserAll();
     List<UserEntity> findKbIdByName(String name);
+
+    List<UserEntity> checkPermission(String name, String kb_id, String action);
 }
